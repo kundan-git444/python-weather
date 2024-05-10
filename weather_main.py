@@ -7,8 +7,8 @@ from datetime import datetime
 
 # Function to get weather data
 def get_weather(city):
-    #The API key is hidden
-    API_key = "change the key to your weather api key"
+    #The API key is hidden and change the key to your key
+    API_key = "please change the key to your weather api key"
     url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_key}"
     res = requests.get(url)
 
